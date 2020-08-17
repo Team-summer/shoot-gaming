@@ -1,0 +1,23 @@
+﻿  Looper.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xmemory(230,12): error C2661: 'TitleScene::TitleScene': 2 個の引数を伴うオーバーロードされた関数はありません。
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\memory(1427): message : コンパイル対象の関数 テンプレート インスタンス化 'void std::_Construct_in_place<_Ty,Looper*,Parameter&>(_Ty &,Looper *&&,Parameter &) noexcept(false)' のリファレンスを確認してください
+          with
+          [
+              _Ty=TitleScene
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\memory(2071): message : コンパイル対象の関数 テンプレート インスタンス化 'std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<Looper*,Parameter&>(Looper *&&,Parameter &)' のリファレンスを確認してください
+          with
+          [
+              _Ty=TitleScene
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\memory(2072): message : コンパイル対象の関数 テンプレート インスタンス化 'std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<Looper*,Parameter&>(Looper *&&,Parameter &)' のリファレンスを確認してください
+          with
+          [
+              _Ty=TitleScene
+          ]
+C:\Users\yuto1\source\c++\Game\Looper.cpp(12): message : コンパイル対象の関数 テンプレート インスタンス化 'std::shared_ptr<TitleScene> std::make_shared<TitleScene,Looper*,Parameter&>(Looper *&&,Parameter &)' のリファレンスを確認してください
+  TitleScene.cpp
+C:\Users\yuto1\source\c++\Game\TitleScene.cpp(10,83): error C2511: 'TitleScene::TitleScene(IOnSceneChangedListener *,const Parameter &)': オーバーロードされたメンバー関数が 'TitleScene' にありません。
+C:\Users\yuto1\source\c++\Game\TitleScene.h(6): message : 'TitleScene' の宣言を確認してください
+C:\Users\yuto1\source\c++\Game\TitleScene.cpp(12,1): error C2550: 'TitleScene::{ctor}': コンストラクターの初期化子リストはコンストラクターの定義だけに許されます。
+  コードを生成中...
