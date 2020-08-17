@@ -1,2 +1,0 @@
-C:\Users\yuto1\source\c++\Game\Debug\Game.exe
-C:\Users\yuto1\source\c++\Game\Debug\Game.pdb

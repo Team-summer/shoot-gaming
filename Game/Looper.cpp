@@ -39,7 +39,7 @@ void Looper::onSceneChanged(const eScene scene, const Parameter& parameter, cons
 	}
 	switch (scene) {
 	case Title:
-		_sceneStack.push(make_shared<TitleScene>(this, parameter, 6));
+		_sceneStack.push(make_shared<TitleScene>(this, parameter));
 		break;
 	
 	case PrevScene:
