@@ -19,6 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AbstractEnemy.cpp" />
+    <ClCompile Include="AbstractPlayer.cpp" />
     <ClCompile Include="AbstractScene.cpp" />
     <ClCompile Include="Define.cpp" />
     <ClCompile Include="Error.cpp" />
@@ -31,6 +33,8 @@
     <ClCompile Include="TitleScene.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AbstractEnemy.h" />
+    <ClInclude Include="AbstractPlayer.h" />
     <ClInclude Include="AbstractScene.h" />
     <ClInclude Include="Define.h" />
     <ClInclude Include="Error.h" />
