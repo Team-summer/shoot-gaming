@@ -31,6 +31,7 @@ bool Looper::loop()
 @param parameter 前のシーンから引き継ぐパラメータ
 @param stackClear 現在のシーンのスタックをクリアするか
 */
+
 void Looper::onSceneChanged(const eScene scene, const Parameter& parameter, const bool stackClear)
 {
 	if (stackClear) {//スタッククリアなら

@@ -36,6 +36,7 @@ void TitleScene::update()
 		
 	}
 
+
 	/*
 	if (Keyboard::getIns()->getPressingCount(KEY_INPUT_E) == 1) {
 		Parameter parameter;
