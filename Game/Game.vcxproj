@@ -26,6 +26,7 @@
     <ClCompile Include="EnemyMgr.cpp" />
     <ClCompile Include="Error.cpp" />
     <ClCompile Include="Fps.cpp" />
+    <ClCompile Include="GameScene.cpp" />
     <ClCompile Include="Keyboard.cpp" />
     <ClCompile Include="Looper.cpp" />
     <ClCompile Include="main.cpp" />
@@ -42,6 +43,7 @@
     <ClInclude Include="Error.h" />
     <ClInclude Include="eScene.h" />
     <ClInclude Include="Fps.h" />
+    <ClInclude Include="GameScene.h" />
     <ClInclude Include="IOnSceneChangedListener.h" />
     <ClInclude Include="Keyboard.h" />
     <ClInclude Include="Looper.h" />
