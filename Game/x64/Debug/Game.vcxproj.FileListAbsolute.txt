@@ -1,2 +1,4 @@
 C:\Users\yuto1\shoot-gaming\Game\x64\Debug\Game.exe
 C:\Users\yuto1\shoot-gaming\Game\x64\Debug\Game.pdb
+C:\Users\daiki\Programing\shoot-gaming\Game\x64\Debug\Game.exe
+C:\Users\daiki\Programing\shoot-gaming\Game\x64\Debug\Game.pdb
