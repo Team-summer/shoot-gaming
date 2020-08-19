@@ -2,13 +2,14 @@
 
 using namespace std;
 
-AbstractEnemy::AbstractEnemy(double x, double y, int hp, string img_path) : 
+AbstractEnemy::AbstractEnemy(int hp, int pattern, double x, double y, string img_path) :
+	_max_hp(hp),
+	_hp(hp),
+	_pattern(pattern),
 	_x(x),
 	_y(y),
 	_cnt(0),
 	_flag(live),
-	_max_hp(hp),
-	_hp(hp),
 	_img(img_path)
 {
 }

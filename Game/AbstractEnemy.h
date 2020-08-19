@@ -11,7 +11,7 @@ class AbstractEnemy : public Task
 	};
 
 public:
-	AbstractEnemy(double x, double y, int hp, std::string img_path);
+	AbstractEnemy(int hp, int _pattern, double x, double y, std::string img_path);
 	virtual ~AbstractEnemy() = default;
 	virtual void init() = 0;
 	bool update();
@@ -32,9 +32,6 @@ private:
 
 		//最大ヒットポイント
 		_max_hp,
-
-		//ドロップアイテム
-		_itm,
 
 		//停滞時間
 		_wait,
