@@ -1,5 +1,6 @@
 #include "Looper.h"
 #include "TitleScene.h"
+#include "GameScene.h"
 #include "Error.h"
 #include "Macro.h"
 #include "Keyboard.h"
@@ -41,7 +42,9 @@ void Looper::onSceneChanged(const eScene scene, const Parameter& parameter, cons
 	case Title:
 		_sceneStack.push(make_shared<TitleScene>(this, parameter));
 		break;
-	
+	case Game:
+		_sceneStack.push(make_shared<GameScene>(this, parameter));
+		break;
 	case PrevScene:
 		_sceneStack.pop();
 		break;

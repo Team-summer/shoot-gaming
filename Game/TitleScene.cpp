@@ -25,24 +25,15 @@ void TitleScene::update()
 		Parameter parameter;
 		const bool stackClear = false;
 
-		/*
-		fstream fs(Define::FILE_SAVE_DATA);
-
 		switch (NowSelect) {
 		case Define::eTitleSelect::Start:
-			if (!fs.is_open()) {
-				break;
-			}
-			else {
-				break;
-			}
-
+			_implSceneChanged->onSceneChanged(eScene::Game, parameter, stackClear);
 			break;
 		case Define::eTitleSelect::End:
 
 			break;
 		}
-		*/
+		
 	}
 
 	/*
